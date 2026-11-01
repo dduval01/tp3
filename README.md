@@ -96,6 +96,7 @@ tp3/
   - `pandas` 2.2.3
   - `numpy` 2.4.6
   - `matplotlib` 3.11.2
+  
 Install the dependencies with `pip install -r requirements.txt`.
 
 ## Instructions to Replicators
