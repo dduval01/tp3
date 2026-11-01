@@ -92,27 +92,25 @@ tp3/
 ## Requirements
 
 - [x] The repository contains a `requirements.txt` listing all Python dependencies.
-- Python [version]
+- Python 3.11.8
   - `pandas` 2.2.3
-  - `numpy` [version]
-  - `matplotlib` [version]
-- Operating system: Windows 11 (PowerShell).
-
+  - `numpy` 2.4.6
+  - `matplotlib` 3.11.2
 Install the dependencies with `pip install -r requirements.txt`.
 
 ## Instructions to Replicators
 
 1. Clone the repository and open a terminal in its root folder.
+
    `git clone https://github.com/roo6688/tp3.git`
 
    `cd tp3`
-2. Create the environment (Windows PowerShell):
+2. Create the environment:
 
-   `python -m venv .venv`
-
-   `.\.venv\Scripts\python.exe -m pip install -r requirements.txt`
+   Windows PowerShell: `python -m venv .venv`, then `.\.venv\Scripts\python.exe -m pip install -r requirements.txt`.
    
-   (macOS/Linux: `python3 -m venv .venv`, then `.venv/bin/python -m pip install -r requirements.txt`.)
+   macOS/Linux: `python3 -m venv .venv`, then `.venv/bin/python -m pip install -r requirements.txt`.
+   
 3. Download the data:
 
    `.\.venv\Scripts\python.exe scripts/download_data.py`
