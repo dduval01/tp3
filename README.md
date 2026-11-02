@@ -68,25 +68,27 @@ The authors of this repository have legitimate access to and permission to use t
 ## Repository Structure
 ```
 tp3/
+├── .github/workflows/
+│   └── check-files.yml
+├── data/                            # Created by the scripts, not tracked by Git
+│   ├── raw/                         # Files downloaded by download_data.py
+│   └── processed/                   # Output of preprocess.py  
+├── figures/                         # Already in repo / Created by analyze.py
+│   ├── ocv_relaxation_curves.png    
+│   └── ocv_variation_24h.png
+├── results/                         # Created by analyze.py (ocv_indicators.csv)
 ├── scripts/
 │   ├── download_data.py    
 │   ├── preprocess.py       
 │   └── analyze.py
-├── data/                            # Created by the scripts, not tracked by Git
-│   ├── raw/                         # Files downloaded by download_data.py
-│   └── processed/                   # Output of preprocess.py  
-├── results/                         # Created by analyze.py (ocv_indicators.csv)
-├── figures/
-│   ├── ocv_relaxation_curves.png    
-│   └── ocv_variation_24h.png   
 ├── .gitignore
+├── AI_Prompts.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
 ├── LICENSE 
 ├── README.md
 ├── report.md
-├── requirements.txt
-├── CONTRIBUTING.md
-├── AI_Prompts.md
-└── CODE_OF_CONDUCT.md
+└── requirements.txt
 ```
 
 ## Requirements
