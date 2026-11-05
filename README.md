@@ -182,7 +182,7 @@ Install the dependencies with `pip install -r requirements.txt`.
    Expected message: Analyse terminée : 8 batteries.
 8. Find the outputs in `data/processed/`, `results/` and `figures/`.
 
-Run the scripts in this order. If `data/raw/` already contains the files, skip step 3.
+Run the scripts in this order. If `data/raw/` already contains the files, skip step 5.
 
 ## Files downloaded and produced
 
