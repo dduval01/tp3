@@ -167,7 +167,7 @@ Voicila, Teodor-Iulian; Enache, Bogdan-Adrian; Argyriou, Vasilis; Sarigiannidis,
 Structure adapted from the [social science data editors' README template](https://social-science-data-editors.github.io/template_README/).
 
 ## Support
-If you need any support or if you have other questions related to the project, please submit an issue for others to benefit from the administrators' answer. Please include as much information as possible in the description of the issue.
+If you need any support or if you have other questions related to the project, please submit an [issue](https://github.com/roo6688/tp3/issues/) for others to benefit from the administrators' answer. Please include as much information as possible in the description of the issue.
 
 If no response is given within 48 hours, please send an email to the administrators, Nasma Drissi (nasma.drissi@etud.polymtl.ca) and Ronald Sim (ronald.sim@etud.polymtl.ca). 
 
